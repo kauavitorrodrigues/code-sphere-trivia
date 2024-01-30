@@ -1,94 +1,101 @@
 let questions = [
     {
-        question: 'Em qual elemento HTML nós colocamos o javascript?',
+        question: 'O que significa HTML?',
         options: [
-            'tag js',
-            'tag script',
-            'tag scripting',
-            'tag javascript'
-        ],
-        answer: 1
-    },
-    {
-        question: 'Onde é o local certo de colocar o javascript?',
-        options: [
-            'Na tag body',
-            'Na tag head',
-            'Tanto na tag body quanto a head estão corretas'
-        ],
-        answer: 2
-    },
-    {
-        question: 'Qual a sintaxe correta para adicionar um arquivo javascript externo na tag script?',
-        options: [
-            'name="xxx.js"',
-            'src="xxx.js"',
-            'href="xxx.js"'
-        ],
-        answer: 1
-    },
-    {
-        question: 'Um arquivo javascript externo precisa ter a tag script',
-        options: [
-            'Verdade',
-            'Falso'
-        ],
-        answer: 1
-    },
-    {
-        question: 'Como escrever um "Olá Mundo" em um alertbox?',
-        options: [
-            'alertBox("Olá Mundo")',
-            'msgBox("Olá Mundo")',
-            'msg("Olá Mundo")',
-            'alert("Olá Mundo")'
-        ],
-        answer: 3
-    },
-    {
-        question: 'Como você cria uma função no Javascript?',
-        options: [
-            'function:minhaFuncao()',
-            'function = minhaFuncao()',
-            'function minhaFuncao()'
-        ],
-        answer: 2
-    },
-    {
-        question: 'Como chamar uma função chamada "minhaFuncao"?',
-        options: [
-            'call minhaFuncao',
-            'call function minhaFuncao',
-            'minhaFuncao()'
-        ],
-        answer: 2
-    },
-    {
-        question: 'Como escrever uma condicional IF no Javascript?',
-        options: [
-            'if i = 5',
-            'if i == 5 then',
-            'if (i == 5)',
-            'if i = 5 then'
-        ],
-        answer: 2
-    },
-    {
-        question: 'Como fazer um if que executa um código caso "i" for diferente de 5',
-        options: [
-            'if (i != 5)',
-            'if (i <> 5)',
-            'if i <> 5',
-            'if i =! 5 then'
+            'Hyper Text Markup Language',
+            'Highly Textured Modern Language',
+            'Hyperlink and Text Markup Language',
+            'High-level Text Management Language'
         ],
         answer: 0
     },
     {
-        question: 'Como o loop while começa?',
+        question: 'Qual é a finalidade principal do JavaScript?',
         options: [
-            'while (i <= 10)',
-            'while (i <= 10; i++)',
-            'while i = 1 to 10'
+            'Estilizar páginas da web',
+            'Manipular dados do lado do servidor',
+            'Adicionar interatividade às páginas da web',
+            'Criar layouts responsivos'
+        ],
+        answer: 2
+    },
+    {
+        question: 'Qual é o símbolo de atribuição em JavaScript?',
+        options: [
+            '=',
+            ':',
+            '-',
+            '+'
+        ],
+        answer: 0
+    },
+    {
+        question: 'O que é CSS?',
+        options: [
+            'Counter Style Sheet',
+            'Cascading Style Sheet',
+            'Computer Style Sheet',
+            'Conditional Style Sheet'
+        ],
+        answer: 1
+    },
+    {
+        question: 'Como você comenta uma linha de código em JavaScript?',
+        options: [
+            '// Comentário',
+            '/* Comentário */',
+            '# Comentário',
+            '-- Comentário'
+        ],
+        answer: 0
+    },
+    {
+        question: 'Qual é a função principal da tag HTML <head>?',
+        options: [
+            'Exibir conteúdo principal',
+            'Definir o cabeçalho da página',
+            'Incluir metadados e referências a scripts e estilos',
+            'Organizar o conteúdo da página'
+        ],
+        answer: 2
+    },
+    {
+        question: 'Qual é a extensão de arquivo comum para folhas de estilo CSS?',
+        options: [
+            '.html',
+            '.js',
+            '.css',
+            '.txt'
+        ],
+        answer: 2
+    },
+    {
+        question: 'O que significa a sigla DOM em JavaScript?',
+        options: [
+            'Document Object Model',
+            'Data Object Model',
+            'Dynamic Object Management',
+            'Document Order Model'
+        ],
+        answer: 0
+    },
+    {
+        question: 'Como você inclui um comentário em CSS?',
+        options: [
+            '// Comentário',
+            '/* Comentário */',
+            '# Comentário',
+            '-- Comentário'
+        ],
+        answer: 1
+    },
+    {
+        question: 'Qual é o método mais comum para selecionar um elemento HTML usando JavaScript?',
+        options: [
+            'getElementById()',
+            'selectElement()',
+            'findElement()',
+            'queryElement()'
         ],
         answer: 0
     },
