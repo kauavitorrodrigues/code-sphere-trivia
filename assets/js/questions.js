@@ -50,7 +50,7 @@ let questions = [
         answer: 0
     },
     {
-        question: 'Qual é a função principal da tag HTML <head>?',
+        question: 'Qual é a função principal da tag head no HTML?',
         options: [
             'Exibir conteúdo principal',
             'Definir o cabeçalho da página',

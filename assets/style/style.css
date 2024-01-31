@@ -2,21 +2,45 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 5s all ease;
 }
 
 body {
-    display: flex;
     min-height: 100vh;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     background-color: #333;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
+header {
+    width: 100vw;
+    height: 110px;
+    
+    opacity: 0;
+}
+
+nav {
+    margin-left: 90px;
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+nav h1 {
+    color: white;
+    font-weight: 100;
+}
+
+main h1 {
     color: #FFF;
-    margin: 20px 0;
+}
+
+main {
+    width: 100vw;
+    height: calc(100vh - 170px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
 }
 
 .progress {
@@ -45,8 +69,10 @@ h1 {
 .question {
     color: #FFF;
     font-size: 18px;
-    margin: 20px 0;
+    margin-bottom: 20px;
+    text-align: center;
 }
+
 .option {
     display: flex;
     align-items: center;
@@ -58,6 +84,7 @@ h1 {
     font-size: 16px;
     cursor: pointer;
 }
+
 .option span {
     display: flex;
     justify-content: center;
@@ -70,6 +97,7 @@ h1 {
     background-color: rgba(0, 0, 0, 0.8);
     color: #555;
 }
+
 .option:hover {
     background-color: rgba(0, 0, 0, 0.2);
 }
@@ -118,7 +146,11 @@ h1 {
 }
 
 footer {
-    margin-top: 20px;
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
 }
 
 footer p,

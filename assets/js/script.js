@@ -120,5 +120,19 @@ function restart() {
     showQuestion()
 }
 
+function showElements() {
+    let headerEl = document.querySelector("header")
+    let mainEl = document.querySelector("main")
+    let footerEl = document.querySelector("footer")    
+
+    setTimeout(() => {
+
+        headerEl.style.opacity = '100%'
+        mainEl.style.opacity = '100%'
+        footerEl.style.opacity = '100%'
+        showQuestion()
+    }, 100)
+}
+
 // Initial display of the first question
-showQuestion()
+showElements()
